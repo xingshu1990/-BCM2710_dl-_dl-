@@ -203,99 +203,88 @@ zstd-1.5.5.tar.gz</br>
 以下是我个人编译自用的openwrt，make download -j8所下载的内容，
 可以自行选择将主域名加入代理，或者直连，
 或者可以手动进行下载，然后放置dl目录，以便于后续编译。
-File: .gdb-14.1.tar.xz URL: </br>
-File: .gcc-11.3.0.tar.xz URL: </br>
-File: .binutils-2.40.tar.xz URL: </br>
-File: .gcc-11.3.0.tar.xz URL: </br>
-File: .fortify-headers-1.1.tar.gz URL: </br>
-File: .linux-5.15.148.tar.xz URL: </br>
-File: .musl-1.2.4.tar.gz URL: https://mirror.iscas.ac.cn/kernel.org/linux/kernel/v5.x/linux-5.15.148.tar.xz</br>
-File: .adguardhome-frontend-0.107.53.tar.gz URL: https://musl.libc.org/releases/musl-1.2.4.tar.gz</br>
-File: .lucihttp-2023-03-15-9b5b683f.tar.xz URL: https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.53/AdGuardHome_frontend.tar.gz</br>
-File: .attr-2.5.1.tar.gz URL: https://sources.cdn.openwrt.org/lucihttp-2023-03-15-9b5b683f.tar.xz</br>
-File: .cgroupfs-mount-2020-06-26-05494281.tar.xz URL: http://git.savannah.nongnu.org/cgit/attr.git/snapshot/attr-2.5.1.tar.gz</br>
-File: .btrfs-progs-v5.16.1.tar.xz URL: </br>
-File: .cgi-io-2022-08-10-901b0f04.tar.xz URL: </br>
-File: .containerd-1.7.18.tar.gz URL: https://mirror.iscas.ac.cn/kernel.org/linux/kernel/people/kdave/btrfs-progs/btrfs-progs-v5.16.1.tar.xz</br>
-File: .coremark-2022-07-27.tar.gz URL: https://sources.cdn.openwrt.org/cgi-io-2022-08-10-901b0f04.tar.xz</br>
-File: .coreutils-9.3.tar.xz URL: https://codeload.github.com/eembc/coremark/tar.gz/eefc986ebd3452d6adde22eafaff3e5c859f29e4?/coremark-2022-07-27.tar.gz</br>
-File: .dns2tcp-1.1.2.tar.gz URL: https://downloads.sourceforge.net/dns2socks/SourceCode.zip</br>
-File: .docker-27.0.2.tar.gz URL: https://codeload.github.com/zfl9/dns2tcp/tar.gz/v1.1.2?/dns2tcp-1.1.2.tar.gz</br>
-File: .v2.28.1.tar.gz URL: https://codeload.github.com/docker/cli/tar.gz/v27.0.2?/docker-27.0.2.tar.gz</br>
-File: .dockerd-27.0.2.tar.gz URL: https://codeload.github.com/docker/compose/tar.gz/v2.28.1?/v2.28.1.tar.gz</br>
-File: .adguardhome-0.107.53.tar.gz URL: https://codeload.github.com/moby/moby/tar.gz/v27.0.2?/dockerd-27.0.2.tar.gz</br>
-File: .etherwake_1.09.orig.tar.gz URL: https://codeload.github.com/AdguardTeam/AdGuardHome/tar.gz/v0.107.53?/adguardhome-0.107.53.tar.gz</br>
-File: .libev-4.33.tar.gz URL: http://ftp.debian.org/debian/pool/main/e/etherwake/etherwake_1.09.orig.tar.gz</br>
-File: .libseccomp-2.5.4.tar.gz URL: http://dist.schmorp.de/libev/Attic/libev-4.33.tar.gz</br>
-File: .libsodium-1.0.18.tar.gz URL: https://github.com/seccomp/libseccomp/releases/download/v2.5.4/libseccomp-2.5.4.tar.gz</br>
-File: .libuv-v1.48.0.tar.gz URL: https://download.libsodium.org/libsodium/releases/libsodium-1.0.18.tar.gz</br>
-File: .libwebsockets-4.3.2.tar.gz URL: https://dist.libuv.org/dist/v1.48.0/libuv-v1.48.0.tar.gz</br>
-File: .lzo-2.10.tar.gz URL: https://codeload.github.com/warmcat/libwebsockets/tar.gz/v4.3.2?/libwebsockets-4.3.2.tar.gz</br>
-File: .microsocks-1.0.4.tar.gz URL: http://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz</br>
-File: .miniupnpd-2.0.20170421.tar.gz URL: https://codeload.github.com/rofl0r/microsocks/tar.gz/v1.0.4?/microsocks-1.0.4.tar.gz</br>
-File: .nano-7.2.tar.xz URL: http://miniupnp.tuxfamily.org/files/miniupnpd-2.0.20170421.tar.gz</br>
-File: .nghttp2-1.51.0.tar.xz URL: https://mirrors.aliyun.com/gnu/nano/nano-7.2.tar.xz</br>
-File: .nlbwmon-2021-09-01-d82c910c.tar.xz URL: https://github.com/nghttp2/nghttp2/releases/download/v1.51.0/nghttp2-1.51.0.tar.xz</br>
-File: .parted-3.4.tar.xz URL: https://sources.cdn.openwrt.org/nlbwmon-2021-09-01-d82c910c.tar.xz</br>
-File: .pdnsd-1.2.9b-par.tar.xz URL: https://github.com/PCRE2Project/pcre2/releases/download/pcre2-10.42/pcre2-10.42.tar.bz2</br>
-File: .runc-1.1.13.tar.gz URL: https://sources.openwrt.org/pdnsd-1.2.9b-par.tar.xz</br>
-File: .smartmontools-7.4.tar.gz URL: https://codeload.github.com/opencontainers/runc/tar.gz/v1.1.13?/runc-1.1.13.tar.gz</br>
-File: .tcping-0.3-db9101834732dac9aaa59dbb7fb9c74612dbf723.tar.gz URL: https://mirror2.openwrt.org/sources/pdnsd-1.2.9b-par.tar.xz</br>
-File: .tini-0.19.0.tar.gz URL: https://sources.openwrt.org/tcping-0.3-db9101834732dac9aaa59dbb7fb9c74612dbf723.tar.gz</br>
-File: .ttyd-1.6.3.tar.gz URL: https://codeload.github.com/krallin/tini/tar.gz/v0.19.0?/tini-0.19.0.tar.gz</br>
-File: .udns-0.4.tar.gz URL: https://mirror2.openwrt.org/sources/tcping-0.3-db9101834732dac9aaa59dbb7fb9c74612dbf723.tar.gz</br>
-File: .vlmcsd-svn1113.tar.gz URL: http://ftp.vim.org/pub/vim/unix/vim-8.2.tar.bz2</br>
-File: .wget-1.21.3.tar.gz URL: https://codeload.github.com/Wind4/vlmcsd/tar.gz/svn1113?/vlmcsd-svn1113.tar.gz</br>
-File: .xray-core-24.10.16.tar.gz URL: https://mirrors.aliyun.com/gnu/wget/wget-1.21.3.tar.gz</br>
-File: .neturl-1.1-1.tar.gz URL: https://codeload.github.com/XTLS/Xray-core/tar.gz/v24.10.16?/xray-core-24.10.16.tar.gz</br>
-File: .mosdns-5.3.3.tar.gz URL: https://codeload.github.com/golgote/neturl/tar.gz/v1.1-1?/neturl-1.1-1.tar.gz</br>
-File: .shadowsocks-v1.21.2.aarch64-unknown-linux-musl.tar.xz URL: https://codeload.github.com/IrineSistiana/mosdns/tar.gz/v5.3.3?/mosdns-5.3.3.tar.gz</br>
-File: .shadowsocksr-libev-2.5.3.tar.gz URL: </br>
-File: .simple-obfs-0.0.5.tar.xz URL: https://codeload.github.com/shadowsocksrr/shadowsocksr-libev/tar.gz/2.5.3?/shadowsocksr-libev-2.5.3.tar.gz</br>
-File: .cypress-firmware-5.4.18-2021_0812.tar.xz URL: https://sources.cdn.openwrt.org/simple-obfs-0.0.5.tar.xz</br>
-File: .cypress-nvram-2019-09-03-e7b78df2.tar.xz URL: https://sources.cdn.openwrt.org/cypress-firmware-5.4.18-2021_0812.tar.xz</br>
-File: .linux-firmware-20231211.tar.xz URL: https://sources.openwrt.org/simple-obfs-0.0.5.tar.xz</br>
-File: .wireless-regdb-2022.08.12.tar.xz URL: https://mirror2.openwrt.org/sources/simple-obfs-0.0.5.tar.xz</br>
-File: .cryptodev-linux-1.13.tar.gz URL: https://raw.githubusercontent.com/raspberrypi/firmware/3673be308132de102fdff491d1333d9d0f823557/boot/LICENCE.broadcom</br>
-File: .vsftpd-3.0.5.tar.gz URL: https://raw.githubusercontent.com/raspberrypi/firmware/3673be308132de102fdff491d1333d9d0f823557/boot/fixup4.dat</br>
-File: .libcap-2.68.tar.xz URL: https://raw.githubusercontent.com/raspberrypi/firmware/3673be308132de102fdff491d1333d9d0f823557/boot/fixup4x.dat</br>
-File: .json-c-0.16-nodoc.tar.gz URL: https://raw.githubusercontent.com/raspberrypi/firmware/3673be308132de102fdff491d1333d9d0f823557/boot/start.elf</br>
-File: .libnl-tiny-2022-11-01-db3b2cdb.tar.xz URL: http://www.netfilter.org/projects/libmnl/files/libmnl-1.0.5.tar.bz2</br>
-File: .libubox-2022-09-27-ea560134.tar.xz URL: https://sources.cdn.openwrt.org/libnl-tiny-2022-11-01-db3b2cdb.tar.xz</br>
-File: .ncurses-6.4.tar.gz URL: https://sources.cdn.openwrt.org/libubox-2022-09-27-ea560134.tar.xz</br>
-File: .openssl-3.0.13.tar.gz URL: https://mirrors.aliyun.com/gnu/ncurses/ncurses-6.4.tar.gz</br>
-File: .readline-8.2.tar.gz URL: https://downloads.sourceforge.net/pcre/pcre-8.45.tar.bz2</br>
-File: .uclient-2021-05-14-6a6011df.tar.xz URL: https://raw.githubusercontent.com/raspberrypi/firmware/3673be308132de102fdff491d1333d9d0f823557/boot/start_cd.elf</br>
-File: .ustream-ssl-2022-12-08-9217ab46.tar.xz URL: https://sources.cdn.openwrt.org/uclient-2021-05-14-6a6011df.tar.xz</br>
-File: .wolfssl-5.5.4-stable.tar.gz URL: https://sources.cdn.openwrt.org/ustream-ssl-2022-12-08-9217ab46.tar.xz</br>
-File: .firewall-2022-02-17-4cd7d4f3.tar.xz URL: https://github.com/wolfSSL/wolfssl/archive/v5.5.4-stable/wolfssl-5.5.4-stable.tar.gz</br>
-File: .netifd-2021-06-04-50381d0a.tar.xz URL: https://sources.cdn.openwrt.org/firewall-2022-02-17-4cd7d4f3.tar.xz</br>
-File: .dnsmasq-2.88.tar.xz URL: https://sources.cdn.openwrt.org/netifd-2021-06-04-50381d0a.tar.xz</br>
-File: .fullconenat-2022-02-13-108a36cb.tar.xz URL: https://raw.githubusercontent.com/raspberrypi/firmware/3673be308132de102fdff491d1333d9d0f823557/boot/start4.elf</br>
-File: .hostapd-2022-07-29-b704dc72.tar.xz URL: https://mirror2.openwrt.org/sources/fullconenat-2022-02-13-108a36cb.tar.xz</br>
-File: .ppp-2.4.9.git-2021-01-04.tar.xz URL: https://sources.cdn.openwrt.org/hostapd-2022-07-29-b704dc72.tar.xz</br>
-File: .backports-6.1.24.tar.xz URL: https://sources.cdn.openwrt.org/ppp-2.4.9.git-2021-01-04.tar.xz</br>
-File: .uhttpd-2022-10-31-23977554.tar.xz URL: http://mirror2.openwrt.org/sources/backports-6.1.24.tar.xz</br>
-File: .bpftools-2022-03-08-04c465fd.tar.xz URL: https://sources.cdn.openwrt.org/uhttpd-2022-10-31-23977554.tar.xz</br>
-File: .iproute2-6.2.0.tar.xz URL: https://sources.cdn.openwrt.org/bpftools-2022-03-08-04c465fd.tar.xz</br>
-File: .iw-5.19.tar.xz URL: https://netfilter.org/projects/iptables/files/iptables-1.8.7.tar.bz2</br>
-File: .libiwinfo-2023-05-17-c9f5c3f7.tar.xz URL: https://mirror.iscas.ac.cn/kernel.org/software/network/iw/iw-5.19.tar.xz</br>
-File: .ca-certificates_20211016.tar.xz URL: https://sources.cdn.openwrt.org/libiwinfo-2023-05-17-c9f5c3f7.tar.xz</br>
-File: .fstools-2023-01-22-1ea5855e.tar.xz URL: https://ftp.debian.org/debian/pool/main/c/ca-certificates/ca-certificates_20211016.tar.xz</br>
-File: .fwtool-2019-11-12-8f7fe925.tar.xz URL: https://sources.cdn.openwrt.org/fstools-2023-01-22-1ea5855e.tar.xz</br>
-File: .openwrt-keyring-2022-03-25-62471e69.tar.xz URL: https://mirror.leaseweb.com/debian/pool/main/c/ca-certificates/ca-certificates_20211016.tar.xz</br>
-File: .opkg-2022-02-24-d038e5b6.tar.xz URL: https://mirror.netcologne.de/debian/pool/main/c/ca-certificates/ca-certificates_20211016.tar.xz</br>
-File: .procd-2023-01-16-190f13a7.tar.xz URL: https://sources.cdn.openwrt.org/ca-certificates_20211016.tar.xz</br>
-File: .rpcd-2023-01-21-c0df2a7a.tar.xz URL: https://sources.cdn.openwrt.org/procd-2023-01-16-190f13a7.tar.xz</br>
-File: .ubus-2022-06-01-2bebf93c.tar.xz URL: https://sources.cdn.openwrt.org/rpcd-2023-01-21-c0df2a7a.tar.xz</br>
-File: .ubox-2022-08-13-4c7b720b.tar.xz URL: https://sources.cdn.openwrt.org/ubus-2022-06-01-2bebf93c.tar.xz</br>
-File: .uci-2021-10-22-f84f49f0.tar.xz URL: https://sources.cdn.openwrt.org/ubox-2022-08-13-4c7b720b.tar.xz</br>
-File: .bcm27xx-userland-c4fd1b8986c6d6d4ae5cd51e65a8bbeb495dfa4e.tar.gz URL: https://sources.cdn.openwrt.org/uci-2021-10-22-f84f49f0.tar.xz</br>
-File: .usign-2020-05-23-f1f65026.tar.xz URL: </br>
-File: .e2fsprogs-1.47.0.tar.xz URL: https://sources.cdn.openwrt.org/usign-2020-05-23-f1f65026.tar.xz</br>
-File: .f2fs-tools-1.16.0.tar.gz URL: https://mirror.iscas.ac.cn/kernel.org/linux/kernel/people/tytso/e2fsprogs/v1.47.0/e2fsprogs-1.47.0.tar.xz</br>
-File: .jsonfilter-2018-02-04-c7e938d6.tar.xz URL: https://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs-tools.git/snapshot/f2fs-tools-1.16.0.tar.gz</br>
-File: .lua-5.1.5.tar.gz URL: https://sources.cdn.openwrt.org/jsonfilter-2018-02-04-c7e938d6.tar.xz</br>
-File: .ucode-2023-01-09-8dad974b.tar.xz URL: https://www.lua.org/ftp/lua-5.1.5.tar.gz</br>
-File: .util-linux-2.38.1.tar.xz URL: https://sources.cdn.openwrt.org/ucode-2023-01-09-8dad974b.tar.xz</br>
-</br>
+https://mirror.iscas.ac.cn/kernel.org/linux/kernel/v5.x/linux-5.15.148.tar.xz</br>
+https://musl.libc.org/releases/musl-1.2.4.tar.gz</br>
+https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.53/AdGuardHome_frontend.tar.gz</br>
+https://sources.cdn.openwrt.org/lucihttp-2023-03-15-9b5b683f.tar.xz</br>
+http://git.savannah.nongnu.org/cgit/attr.git/snapshot/attr-2.5.1.tar.gz</br>
+https://mirror.iscas.ac.cn/kernel.org/linux/kernel/people/kdave/btrfs-progs/btrfs-progs-v5.16.1.tar.xz</br>
+https://sources.cdn.openwrt.org/cgi-io-2022-08-10-901b0f04.tar.xz</br>
+https://codeload.github.com/eembc/coremark/tar.gz/eefc986ebd3452d6adde22eafaff3e5c859f29e4?/coremark-2022-07-27.tar.gz</br>
+https://downloads.sourceforge.net/dns2socks/SourceCode.zip</br>
+https://codeload.github.com/zfl9/dns2tcp/tar.gz/v1.1.2?/dns2tcp-1.1.2.tar.gz</br>
+https://codeload.github.com/docker/cli/tar.gz/v27.0.2?/docker-27.0.2.tar.gz</br>
+https://codeload.github.com/docker/compose/tar.gz/v2.28.1?/v2.28.1.tar.gz</br>
+https://codeload.github.com/moby/moby/tar.gz/v27.0.2?/dockerd-27.0.2.tar.gz</br>
+https://codeload.github.com/AdguardTeam/AdGuardHome/tar.gz/v0.107.53?/adguardhome-0.107.53.tar.gz</br>
+http://ftp.debian.org/debian/pool/main/e/etherwake/etherwake_1.09.orig.tar.gz</br>
+http://dist.schmorp.de/libev/Attic/libev-4.33.tar.gz</br>
+https://github.com/seccomp/libseccomp/releases/download/v2.5.4/libseccomp-2.5.4.tar.gz</br>
+https://download.libsodium.org/libsodium/releases/libsodium-1.0.18.tar.gz</br>
+https://dist.libuv.org/dist/v1.48.0/libuv-v1.48.0.tar.gz</br>
+https://codeload.github.com/warmcat/libwebsockets/tar.gz/v4.3.2?/libwebsockets-4.3.2.tar.gz</br>
+http://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz</br>
+https://codeload.github.com/rofl0r/microsocks/tar.gz/v1.0.4?/microsocks-1.0.4.tar.gz</br>
+http://miniupnp.tuxfamily.org/files/miniupnpd-2.0.20170421.tar.gz</br>
+https://mirrors.aliyun.com/gnu/nano/nano-7.2.tar.xz</br>
+https://github.com/nghttp2/nghttp2/releases/download/v1.51.0/nghttp2-1.51.0.tar.xz</br>
+https://sources.cdn.openwrt.org/nlbwmon-2021-09-01-d82c910c.tar.xz</br>
+https://github.com/PCRE2Project/pcre2/releases/download/pcre2-10.42/pcre2-10.42.tar.bz2</br>
+https://sources.openwrt.org/pdnsd-1.2.9b-par.tar.xz</br>
+https://codeload.github.com/opencontainers/runc/tar.gz/v1.1.13?/runc-1.1.13.tar.gz</br>
+https://mirror2.openwrt.org/sources/pdnsd-1.2.9b-par.tar.xz</br>
+https://sources.openwrt.org/tcping-0.3-db9101834732dac9aaa59dbb7fb9c74612dbf723.tar.gz</br>
+https://codeload.github.com/krallin/tini/tar.gz/v0.19.0?/tini-0.19.0.tar.gz</br>
+https://mirror2.openwrt.org/sources/tcping-0.3-db9101834732dac9aaa59dbb7fb9c74612dbf723.tar.gz</br>
+http://ftp.vim.org/pub/vim/unix/vim-8.2.tar.bz2</br>
+https://codeload.github.com/Wind4/vlmcsd/tar.gz/svn1113?/vlmcsd-svn1113.tar.gz</br>
+https://mirrors.aliyun.com/gnu/wget/wget-1.21.3.tar.gz</br>
+https://codeload.github.com/XTLS/Xray-core/tar.gz/v24.10.16?/xray-core-24.10.16.tar.gz</br>
+https://codeload.github.com/golgote/neturl/tar.gz/v1.1-1?/neturl-1.1-1.tar.gz</br>
+https://codeload.github.com/IrineSistiana/mosdns/tar.gz/v5.3.3?/mosdns-5.3.3.tar.gz</br>
+https://codeload.github.com/shadowsocksrr/shadowsocksr-libev/tar.gz/2.5.3?/shadowsocksr-libev-2.5.3.tar.gz</br>
+https://sources.cdn.openwrt.org/simple-obfs-0.0.5.tar.xz</br>
+https://sources.cdn.openwrt.org/cypress-firmware-5.4.18-2021_0812.tar.xz</br>
+https://sources.openwrt.org/simple-obfs-0.0.5.tar.xz</br>
+https://mirror2.openwrt.org/sources/simple-obfs-0.0.5.tar.xz</br>
+https://raw.githubusercontent.com/raspberrypi/firmware/3673be308132de102fdff491d1333d9d0f823557/boot/LICENCE.broadcom</br>
+https://raw.githubusercontent.com/raspberrypi/firmware/3673be308132de102fdff491d1333d9d0f823557/boot/fixup4.dat</br>
+https://raw.githubusercontent.com/raspberrypi/firmware/3673be308132de102fdff491d1333d9d0f823557/boot/fixup4x.dat</br>
+https://raw.githubusercontent.com/raspberrypi/firmware/3673be308132de102fdff491d1333d9d0f823557/boot/start.elf</br>
+http://www.netfilter.org/projects/libmnl/files/libmnl-1.0.5.tar.bz2</br>
+https://sources.cdn.openwrt.org/libnl-tiny-2022-11-01-db3b2cdb.tar.xz</br>
+https://sources.cdn.openwrt.org/libubox-2022-09-27-ea560134.tar.xz</br>
+https://mirrors.aliyun.com/gnu/ncurses/ncurses-6.4.tar.gz</br>
+https://downloads.sourceforge.net/pcre/pcre-8.45.tar.bz2</br>
+https://raw.githubusercontent.com/raspberrypi/firmware/3673be308132de102fdff491d1333d9d0f823557/boot/start_cd.elf</br>
+https://sources.cdn.openwrt.org/uclient-2021-05-14-6a6011df.tar.xz</br>
+https://sources.cdn.openwrt.org/ustream-ssl-2022-12-08-9217ab46.tar.xz</br>
+https://github.com/wolfSSL/wolfssl/archive/v5.5.4-stable/wolfssl-5.5.4-stable.tar.gz</br>
+https://sources.cdn.openwrt.org/firewall-2022-02-17-4cd7d4f3.tar.xz</br>
+https://sources.cdn.openwrt.org/netifd-2021-06-04-50381d0a.tar.xz</br>
+https://raw.githubusercontent.com/raspberrypi/firmware/3673be308132de102fdff491d1333d9d0f823557/boot/start4.elf</br>
+https://mirror2.openwrt.org/sources/fullconenat-2022-02-13-108a36cb.tar.xz</br>
+https://sources.cdn.openwrt.org/hostapd-2022-07-29-b704dc72.tar.xz</br>
+https://sources.cdn.openwrt.org/ppp-2.4.9.git-2021-01-04.tar.xz</br>
+http://mirror2.openwrt.org/sources/backports-6.1.24.tar.xz</br>
+https://sources.cdn.openwrt.org/uhttpd-2022-10-31-23977554.tar.xz</br>
+https://sources.cdn.openwrt.org/bpftools-2022-03-08-04c465fd.tar.xz</br>
+https://netfilter.org/projects/iptables/files/iptables-1.8.7.tar.bz2</br>
+https://mirror.iscas.ac.cn/kernel.org/software/network/iw/iw-5.19.tar.xz</br>
+https://sources.cdn.openwrt.org/libiwinfo-2023-05-17-c9f5c3f7.tar.xz</br>
+https://ftp.debian.org/debian/pool/main/c/ca-certificates/ca-certificates_20211016.tar.xz</br>
+https://sources.cdn.openwrt.org/fstools-2023-01-22-1ea5855e.tar.xz</br>
+https://mirror.leaseweb.com/debian/pool/main/c/ca-certificates/ca-certificates_20211016.tar.xz</br>
+https://mirror.netcologne.de/debian/pool/main/c/ca-certificates/ca-certificates_20211016.tar.xz</br>
+https://sources.cdn.openwrt.org/ca-certificates_20211016.tar.xz</br>
+https://sources.cdn.openwrt.org/procd-2023-01-16-190f13a7.tar.xz</br>
+https://sources.cdn.openwrt.org/rpcd-2023-01-21-c0df2a7a.tar.xz</br>
+https://sources.cdn.openwrt.org/ubus-2022-06-01-2bebf93c.tar.xz</br>
+https://sources.cdn.openwrt.org/ubox-2022-08-13-4c7b720b.tar.xz</br>
+https://sources.cdn.openwrt.org/uci-2021-10-22-f84f49f0.tar.xz</br>
+https://sources.cdn.openwrt.org/usign-2020-05-23-f1f65026.tar.xz</br>
+https://mirror.iscas.ac.cn/kernel.org/linux/kernel/people/tytso/e2fsprogs/v1.47.0/e2fsprogs-1.47.0.tar.xz</br>
+https://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs-tools.git/snapshot/f2fs-tools-1.16.0.tar.gz</br>
+https://sources.cdn.openwrt.org/jsonfilter-2018-02-04-c7e938d6.tar.xz</br>
+https://www.lua.org/ftp/lua-5.1.5.tar.gz</br>
+https://sources.cdn.openwrt.org/ucode-2023-01-09-8dad974b.tar.xz</br>

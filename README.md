@@ -1,4 +1,4 @@
-## 自编译lede_openwrt用DL包 
+## 自编译lede_openwrt_dl
 使用机型，树莓派3B+ </br>
 make menuconfig前三项选择，
 ![image](https://github.com/user-attachments/assets/cf6a69b1-309d-4ecf-a904-c85565b0111b)

@@ -1,15 +1,39 @@
-## 自编译lede_openwrt_dl
+## openwrt编译用dl包，加快编译速度
+openwrt源码基于lede</br>
+此dl无第三方库所下载的依赖包。</br>
+使用方法：
+make menuconfig，勾选需要的功能后</br>
+通过命令行，或者桌面程序进到lede目录下新建一个dl文件夹，</br>
+从Releases下载压缩包，解压，</br>
+压缩包里有一堆下面这样的文件，不用解压，直接丢进dl文件夹</br>
+
+acl-2.3.1.tar.gz</br>
+argp-standalone-1.3.tar.gz</br>
+attr-2.5.1.tar.gz</br>
+autoconf-2.69.tar.xz</br>
+
+然后执行make download -j8 V=s</br>
+另外上面这行命令，可以改为**make download -j8 V=s 2>&1 | tee download.log**</br>
+这样，make download 的输出会在命令行中显示，并且同时保存到 download.log 文件中。</br>
+然后你让chatgpt帮你写解析用的命令</br>
+
+下图只是参考，不一定适用，自行测试</br>
+![image](https://github.com/user-attachments/assets/5eb02e0d-5ce4-413f-9a4e-385f1d671663)
+
+
+
+
 使用机型，树莓派3B+ </br>
-make menuconfig前三项选择，
-![image](https://github.com/user-attachments/assets/cf6a69b1-309d-4ecf-a904-c85565b0111b)
+make menuconfig前三项选择，</br>
+![image](https://github.com/user-attachments/assets/cf6a69b1-309d-4ecf-a904-c85565b0111b)</br>
 
-Target Images的内核空间Kernel partition size (in MiB) ,给他差不多1G，以避免编译固件的时候，勾选太多东西，
-导致编译出来的固件，烧写到设备上以后，不能读写、保存。
-![image](https://github.com/user-attachments/assets/f35107e8-bb0f-4ecc-856d-0fdf8b9f29df)
+Target Images的内核空间Kernel partition size (in MiB) ,给他差不多1G，以避免编译固件的时候，勾选太多东西，</br>
+导致编译出来的固件，烧写到设备上以后，不能读写、保存。</br>
+![image](https://github.com/user-attachments/assets/f35107e8-bb0f-4ecc-856d-0fdf8b9f29df)</br>
 
-近期dl包编译时间：2024-10-25
-此为较为干净的版本（对于部分人来说，部分依赖库、依赖包没用）
-可能有部分没有覆盖到，比如linux5.15   linux5.4  linux6.1这几个源码文件。
+近期dl包编译时间：2024-10-25</br>
+此为较为干净的版本（对于部分人来说，部分依赖库、依赖包没用）</br>
+可能有部分没有覆盖到，比如linux5.15   linux5.4  linux6.1这几个源码文件。</br>
 
 
 文件清单：</br>
